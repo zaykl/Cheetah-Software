@@ -65,7 +65,7 @@ s: simulation, r: robot
 ## Dependencies:
 - Qt 5.10 - https://www.qt.io/download-qt-installer `apt install qt5-default libqt5gamepad5-dev`
 - LCM - https://lcm-proj.github.io/ (Please make it sure that you have a java to let lcm compile java-extension together)
-- Eigen - http://eigen.tuxfamily.org
+- Eigen - http://eigen.tuxfamily.org `apt install libeigen3-dev && ln -s   /usr/include/eigen3 /usr/local/include/eigen3`
 - `apt install mesa-common-dev`
 - `apt install freeglut3-dev`
 - `apt install libblas-dev liblapack-dev`
