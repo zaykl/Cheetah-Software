@@ -63,11 +63,11 @@ s: simulation, r: robot
 
 
 ## Dependencies:
-- Qt 5.10 - https://www.qt.io/download-qt-installer
+- Qt 5.10 - https://www.qt.io/download-qt-installer `apt install qt5-default libqt5gamepad5-dev`
 - LCM - https://lcm-proj.github.io/ (Please make it sure that you have a java to let lcm compile java-extension together)
 - Eigen - http://eigen.tuxfamily.org
-- `mesa-common-dev`
-- `freeglut3-dev`
-- `libblas-dev liblapack-dev`
+- `apt install mesa-common-dev`
+- `apt install freeglut3-dev`
+- `apt install libblas-dev liblapack-dev`
 
 To use Ipopt, use CMake Ipopt option. Ex) cmake -DIPOPT_OPTION=ON ..
