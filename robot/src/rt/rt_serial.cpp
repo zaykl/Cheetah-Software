@@ -21,7 +21,12 @@
 #include <termios.h>
 #include <math.h>
 #include <pthread.h>
-#include <stropts.h>
+//#include <stropts.h>
+extern "C"
+{
+    extern int ioctl (int __fd, unsigned long int __request, ...) __THROW;
+}
+
 #include <endian.h>
 #include <stdint.h>
 
